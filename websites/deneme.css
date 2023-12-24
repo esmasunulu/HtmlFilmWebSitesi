@@ -1,0 +1,102 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+nav {
+  background-color: #f4f4f4;
+  padding: 10px;
+  text-align: center;
+}
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+section {
+  padding: 20px;
+  text-align: justify;
+}
+.article {
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  display: flex;
+}
+.article img {
+  margin-right: 20px;
+  width: 150px;
+  height: auto;
+  flex: auto;
+}
+.article-content {
+  flex: 3px;
+}
+.article-content h2 {
+  margin-top: 0;
+}
+.detail-button {
+  background-color: #333;
+  color: #ccc;
+  padding: 5px;
+  text-decoration: none;
+  border-radius: 2px;
+}
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-left {
+  flex: 4;
+  text-align: left;
+}
+.footer-center {
+  flex: 4;
+}
+.footer-right {
+  flex: 4;
+  text-align: right;
+}
+.social-icons {
+  color: #fff;
+  text-decoration: none;
+  margin-top: 10px;
+}
+<style>
+/* CSS stilleri buraya eklenecek */
+/* Örnek stiller aşağıda verilmiştir */
+
+
+.proje {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 5px;
+  width: 300px;
+}
+
+.proje h3 {
+  margin-top: 0;
+}
+
+.proje img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
